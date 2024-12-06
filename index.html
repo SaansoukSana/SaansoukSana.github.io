@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="header-wrapper wrapper">
+            <h1 class="logo">Saansouk Sana</h1>
+            <ul class="wrapper" id="menu">
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html/#skills">Skills</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+            <ul class="wrapper" id="social">
+               <li> <a href="https://github.com/SaansoukSana"><img src="images/github-142-svgrepo-com.svg" alt="github"></a></li>
+               <li> <a href="https://www.linkedin.com/in/saansouk-sana-93433a331/"><img src="images/linkedin-svgrepo-com.svg" alt="linkedin"></a></li>
+                <li><a href="https://www.instagram.com/mixs_sana/"><img src="images/instagram-svgrepo-com.svg" alt="instagram"></a></li>
+            </ul>
+        </nav>
+        <h2 class="head" id="about">About Me</h2>
+        <div class="about">
+            <p id="intro">Hello, I am Saansouk Mick Sana and I am a RRC Student Full Stack Web Developer.</p>
+            <br>
+            <p id="career">
+                I am an aspiring software engineer who in time hope to develop my skill further. I currently work 
+                as a infantry soldier with the Canadian Armed Forces with the Queen's Own Cameron Highlanders of Canada.
+            </p>
+            <br>
+            <p id="hobby">In my free time I practice drawing traditional art and programming small projects for my own interest.</p>
+        </div>
+
+        <h2 class="head" id="projects">Projects</h2>
+        <div class="carousel-container">
+            <button type="button" class="carousel-button carousel-button-left is-hidden">
+                <img src="images/left-arrow-backup-2-svgrepo-com.svg" alt="">
+            </button>
+            <div class="carousel-track-container">
+                <ul class="carousel-track">
+                    <li class="carousel-item current-slide"><img src="images/projectOne.png" alt=""></li>
+                    <li class="carousel-item"><img src="images/projectTwo.png" alt=""></li>
+                    <li class="carousel-item"><img src="images/projectThree.jpg" alt=""></li>
+                </ul>
+            </div>
+            <button type="button" class="carousel-button carousel-button-right">
+                <img src="images/right-arrow-backup-2-svgrepo-com.svg" alt="">
+            </button>
+            <nav class="carousel-nav">
+                <button type="button" class="carousel-indicator current-slide"></button>
+                <button type="button" class="carousel-indicator"></button>
+                <button type="button" class="carousel-indicator"></button>
+            </nav>
+        </div>
+        <h2 class="head" id="skills">Skills</h2>
+        <div class="skills-container">
+            <div class="wrapper">
+                <img src="images/html-5-svgrepo-com.svg" alt="HTML" class="language">
+                <span class="level-bar"><span class="html"  id="html"></span></span>
+            </div>
+            <div class="wrapper">
+                <img src="images/css-3-svgrepo-com.svg" alt="CSS" class="language">
+                <span class="level-bar"><span class="css" id="css"></span></span>
+            </div>
+            <div class="wrapper">
+                <img src="images/javascript-svgrepo-com.svg" alt="Javascript" class="language">
+                <span class="level-bar"><span class="javascript" id="javascript"></span></span>
+            </div>
+        </div>
+        <script src="js/carousel.js"></script>
+        <footer>
+            <nav class="footer-wrapper wrapper">
+                <h1 class="logo">Saansouk Sana</h1>
+                <ul class="wrapper" id="footer-menu">
+                    <li><a href="index.html/#about">About Me</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+    
+</html>

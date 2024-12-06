@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contact page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="header-wrapper wrapper">
+            <h1 class="logo">Saansouk Sana</h1>
+            <ul class="wrapper" id="menu">
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html/#skills">Skills</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+            <ul class="wrapper" id="social">
+               <li><a href="https://github.com/SaansoukSana"><img src="images/github-142-svgrepo-com.svg" alt="github"></a></li>
+               <li><a href="https://www.linkedin.com/in/saansouk-sana-93433a331/"><img src="images/linkedin-svgrepo-com.svg" alt="linkedin"></a></li>
+                <li><a href="https://www.instagram.com/mixs_sana/"><img src="images/instagram-svgrepo-com.svg" alt="instagram"></a></li>
+            </ul>
+        </nav>
+        <h2 class="head">Contact Me</h2>
+        <form method="post" id="contact-info" action="index.html">
+            <fieldset class="wrapper" id="contact-form">
+                <ul>
+                    <li>
+                        <label for="fname">First Name:</label>
+                        <input type="text" id="fname" name="fname">
+                    </li>
+                    <li><div class="error" id="fname-error">* Please enter a valid first name.</div></li>
+                    <li>
+                        <label for="lname">Last Name:</label>
+                        <input type="text" id="lname" name="lname">
+                    </li>
+                    <li><div class="error" id="lname-error">* Please enter a valid last name.</div></li>
+                    <li>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+                    </li>
+                    <li><div class="error" id="email-error">* Please enter a valid email.</div></li>
+                    <li>
+                        <label for="phone">Phone Number:</label>
+                        <input type="number" id="phone" name="phone">
+                    </li>
+                    <li><div class="error" id="phone-error">* Please enter a valid phone number.</div></li>
+                </ul>
+                <div>
+                    <label for="description">Comments:</label>
+                    <textarea id="description" name="description"></textarea>
+                    <div class="error" id="description-error">* Please enter a comment</div>
+                </div>
+            </fieldset>
+            <div class="wrapper" id="button-container">
+                <button type="button" class="submission" id="submit">Submit</button>
+                <button type="button" class="submission" id="reset">Reset</button>
+            </div>
+        </form>
+        <script src="js/validation.js"></script>
+        <footer>
+            <nav class="footer-wrapper wrapper">
+                <h1 class="logo">Saansouk Sana</h1>
+                <ul class="wrapper" id="footer-menu">
+                    <li><a href="index.html/#about">About Me</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>
